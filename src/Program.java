@@ -19,7 +19,7 @@ public class Program {
 	public void Start() {
 		// TODO Auto-generated constructor stub
 		JFrame frm=new JFrame("같은 그림 찾기");
-		frm.setBounds(120, 120, 600, 300);
+		frm.setBounds(200, 200, 600, 300);
 		
 		JPanel bp=new JPanel();
 		bp.setLayout(new GridLayout(2,5,4,4));
@@ -46,8 +46,7 @@ public class Program {
 	}
 	public int showPopUp() {
 		int result;
-		result=JOptionPane.showConfirmDialog(null,
-				"Continue?","Congratulation!",JOptionPane.YES_NO_OPTION);
+		result=JOptionPane.showConfirmDialog(null,"Continue?","Congratulation!",JOptionPane.YES_NO_OPTION);
 		return result;
 	}
 	public GameReset ReturnGame() {

@@ -85,8 +85,7 @@ public class ActionButtonHandler implements ActionListener {
 		iArr[check]=i;
 		arr[check]=btn[i].clickButton();
 		
-		if(arr[check]==-1)
-			return;
+		if(arr[check]==-1) return;
 		if(check==1)
 		{
 			if(arr[0]!=arr[1])
@@ -121,11 +120,6 @@ public class ActionButtonHandler implements ActionListener {
 			
 		}
 		check++;
-		try {
-			Thread.sleep((long)1000);
-		} catch (InterruptedException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
+
 	}
 }
